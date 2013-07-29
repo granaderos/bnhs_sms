@@ -62,7 +62,6 @@ $(function() {
 		}
 	});
 	
-	
 	var page_height = $("html").css("height");
 	$("#overlay_container_div").css({"height": page_height});
 });
