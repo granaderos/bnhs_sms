@@ -1,0 +1,36 @@
+#footer_container_div {
+	width: 100%;
+	background: -moz-linear-gradient(bottom, #4C0000 5%, #CC0000 100%);
+	background: -ms-linear-gradient(bottom, #4C0000 5%, #CC0000 100%);
+	background: -webkit-linear-gradient(bottom, #4C0000 5%, #CC0000 100%);
+	background: linear-gradient(bottom, #4C0000 5%, #CC0000 100%);
+}
+
+#columns_container_div {
+	padding: 10px;
+}
+
+#columns_container_div table {
+	width: inherit;
+	color: #cccccc;
+}
+
+#columns_container_div table tr td ul li {
+	list-style: none;
+	display: block;
+	color: #cccccc;
+}
+
+#columns_container_div table tr td ul a {
+	font-family: arial, sans-serif;
+	cursor: pointer;
+	color: #cccccc;
+}
+
+#footer_container_div p {
+	background: #222;
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	color: #CCC;s
+}

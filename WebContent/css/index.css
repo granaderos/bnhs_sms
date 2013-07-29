@@ -1,0 +1,44 @@
+body {
+}
+#index_main_container {
+	height: 750px;
+	box-shadow: 1px 10px 10px 1px #CCCCCC;
+}
+
+#overlay_container_div {
+	width: 100%;
+	position: absolute;
+	opacity: 0.6;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background: black;
+	display: none;
+}
+
+#index_main_container #add_user_div {
+	display: none;
+	position: absolute;
+	z-index: 10;
+	background: whitesmoke;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#index_main_container #add_user_div table {
+	margin: 0 auto;	
+}
+
+#index_main_container #log_in_div {
+	display: none;
+	z-index: 10;
+	position: absolute;
+	background: whitesmoke;
+	text-align: center;
+}
+
+#index_main_container #log_in_div #log_in_form {
+	text-align: center;
+	padding: 30px;
+	margin: 0 auto;
+}

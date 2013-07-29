@@ -1,0 +1,73 @@
+#navigator_container_div {
+	height: 40px;
+}
+
+#navigator_container_div nav  {
+	height: inherit;
+}
+
+#navigator_container_div nav ul {
+	background: #AA0000;
+	margin-left: -0px;
+}
+
+#navigator_container_div nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	cursor: pointer;
+	margin-left: -5px;
+	border-right: 1px solid #BB0000;
+}
+
+#navigator_container_div nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+#navigator_container_div nav ul li.nav_right {
+	float: right;
+	border-right: none;
+}
+
+
+#navigator_container_div nav ul li a:hover {
+	color: #dddddd;
+}
+
+#navigator_container_div nav ul li ul {
+	display: none;
+	position: absolute;
+	margin: 9px 10px 0px 0px;
+	margin-left: -5px !important;
+}
+
+#navigator_container_div nav ul li ul li {
+	display: block;
+	background: inherit;
+	border-top: 1px solid #BB0000;
+}
+
+#students_sub_menu {
+	display: inline-block;
+}
+
+#navigator_container_div #option_ul_container {
+	background: whitesmoke !important;
+	padding: 15px;
+	width: 189px;
+	border: 1px outset #AA0000;
+}
+
+#navigator_container_div #option_ul_container li {
+	border: none;
+	color: #444;
+	cursor: default;
+	padding: 5px;
+	border-radius: 5px;
+	
+}
