@@ -45,13 +45,11 @@ $(function() {
 	/******************* Log in process **********************/
 	$("#log_in_button").click(function(e) {
 		
-		return false;
 	});
 	
 	$("#cancel_log_in_button").click(function() {
 		$("#overlay_container_div").slideUp(250);
 		$("#log_in_div").slideUp(250);
-		return false;
 	});
 	
 	/************ Toggle both division *************/
@@ -65,9 +63,8 @@ $(function() {
 	});
 	
 	
-	$("input[name = 'user_birthday']").Datepicker();
-	$("#overlay_container_div").css({"height": $("html").css("height")});
-	$("##log_in_div").css({"height": $("html").css("height")});
+	var page_height = $("html").css("height");
+	$("#overlay_container_div").css({"height": page_height});
 });
 
 function get_account_types() {
